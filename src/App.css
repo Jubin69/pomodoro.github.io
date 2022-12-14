@@ -1,0 +1,28 @@
+*{
+  text-align: center;
+  margin-bottom: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  appearance: none;
+  margin: 0px;
+}
+
+input{
+  display: inline-flex;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+button{
+  border-radius: 4px;
+  margin-left: 3px;
+  border: 1px solid lightcoral;
+  transition-duration: .6s;
+}
+
+button:hover{
+  background-color: red;
+  color: white
+}
