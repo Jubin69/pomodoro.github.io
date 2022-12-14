@@ -29,7 +29,7 @@ function App() {
       if(worksecond > 0){
         const timeId = setTimeout(()=>{ 
           setWorkSecond(worksecond-1);
-        }, 10)
+        }, 1000)
         return ()=>clearTimeout(timeId); 
       }
     }
@@ -51,7 +51,7 @@ function App() {
       if(breaksecond > 0){
         const timeId = setTimeout(()=>{
           setBreakSecond(breaksecond-1);
-        }, 10);
+        }, 1000);
         return ()=>clearTimeout(timeId);
       }
     }
